@@ -1,1 +1,22 @@
 Change commit...
+
+New git install and setup
+-------------------------
+1. install git bash 
+2. git config --global user.name "John Doe"
+3. git config --global user.email johndoe@example.com
+4. git init
+5. git add README.md
+6. git commit -m "first commit"
+7. git branch -M main
+8. git remote add origin https://github.com/farhadabideen/test.git
+9. git push -u origin main
+
+
+
+
+Exitsting git.
+-------------------------
+1. gti add .
+2. git commit -m "version change name"
+3. git push
