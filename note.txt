@@ -15,7 +15,7 @@ New git install and setup
 
 
 
-Exitsting git.
+Existing git.
 -------------------------
 1. gti add .
 2. git commit -m "version change name"
