@@ -1,7 +1,7 @@
 // console.log('Hello World!');
 
-let poorCountry=['Db','Sri'];
-let richCountry = [...poorCountry,'USA','uk'];
+// let poorCountry=['Db','Sri'];
+// let richCountry = [...poorCountry,'USA','uk'];
 
 // console.log(poorCountry);
 // console.log(richCountry);
@@ -10,38 +10,50 @@ let richCountry = [...poorCountry,'USA','uk'];
 
 // console.log(richCountry);
 
-function calWithRest(...nums){
-    let sum =0;
-    for (let i of nums) {
-        sum = sum+i;        
-    }
-    console.log(sum);
-}
+// function calWithRest(...nums){
+//     let sum =0;
+//     for (let i of nums) {
+//         sum = sum+i;        
+//     }
+//     console.log(sum);
+// }
 
 // calWithRest(1,3,4);
 
 
-function calRestWithothers(a,b,...nums){
-    let sum = 0;
-    for(let i of nums){
-        sum = sum+i;
-    }
-    console.log(sum);
-}
+// function calRestWithothers(a,b,...nums){
+//     let sum = 0;
+//     for(let i of nums){
+//         sum = sum+i;
+//     }
+//     console.log(sum);
+// }
 
 // calRestWithothers(5,7,1,3,4);
 
 
-var dynamicFunctionName = function(name){
-    return name;
-}
+// var dynamicFunctionName = function(name){
+//     return name;
+// }
 // console.log(dynamicFunctionName("Farhad Abideen"));
 
-var dynamicFunctionCal = function(...nums){
-    let sum=0;
-    for(let i of nums){
-        sum = sum+i;
-    }
-    return sum;
-}
-console.log(dynamicFunctionCal(1,3,4));
+// var dynamicFunctionCal = function(...nums){
+//     let sum=0;
+//     for(let i of nums){
+//         sum = sum+i;
+//     }
+//     return sum;
+// }
+// console.log(dynamicFunctionCal(1,3,4));
+
+
+
+var nums = [12,34,56,67];
+// nums.push(23);
+// console.log(nums);      
+// nums.pop();
+// console.log(nums);  
+nums.shift();
+console.log(nums);  
+nums.unshift(33)
+console.log(nums)
