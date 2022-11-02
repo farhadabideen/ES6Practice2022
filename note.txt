@@ -3,8 +3,8 @@ Change commit...
 New git install and setup
 -------------------------
 1. install git bash 
-2. git config --global user.name "John Doe"
-3. git config --global user.email johndoe@example.com
+2. git config --global user.name "Farhad Abideen"
+3. git config --global user.email abideen2021@gmail.com
 4. git init
 5. git add README.md
 6. git commit -m "first commit"

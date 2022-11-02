@@ -53,7 +53,32 @@ var nums = [12,34,56,67];
 // console.log(nums);      
 // nums.pop();
 // console.log(nums);  
-nums.shift();
-console.log(nums);  
-nums.unshift(33)
-console.log(nums)
+// nums.shift();
+// console.log(nums);  
+// nums.unshift(33)
+// console.log(nums)
+
+// var annonymousFun = function(x){
+//     return x
+// }
+
+// console.log(annonymousFun("HI"));
+
+// var arrowFun = (x)=>{
+//     return x
+// }
+
+// console.log(arrowFun("HI"));
+
+// var arrowFun = (...x)=>{
+//     return x
+// }
+
+// console.log(arrowFun(2,3,4,5,5));
+
+
+var arrayDestructuring = ["6455","5655","5656","7675"];
+
+var [e,,,d] = arrayDestructuring;
+console.log(e);
+console.log(d);
